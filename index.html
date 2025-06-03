@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"   data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- enlace bootstrap icon -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 
     <!-- enlace a google font -->
 
@@ -22,6 +26,8 @@
 <body >
     <!-- inico del sitio con bootstraap -->
 
+
+
     <!-- barra de navegacion -->
 
     <nav class="navbar bg-body-tertiary">
@@ -30,6 +36,12 @@
             <img src="/assects/logo/fork-knife.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
             Dietetica Tecnicaturas
             </a>
+
+             <button id="toggle-theme" class="btn btn-primary">
+            <i id="theme-icon" class="bi bi-sun-fill"></i> 
+            </button>
+
+             <!-- <button id="toggle-theme" class="btn btn-secondary">Cambiar tema</button> -->
         </div>
     </nav>
 
@@ -92,6 +104,8 @@
                     <p class="card-text">Las sopas de verduras son una muy buena fuente de vitaminas y minerales, con lo cual, no solo podrás perder peso, sino que estarás aportando a tu cuerpo elementos para mejorar tu estado de salud.</p>
                     <a href="https://medlineplus.gov/spanish/recetas/sopa-de-pollo-con-tortilla/" class="btn btn-primary">ver receta</a>
                 </div>
+
+                
                 </div>
 
             </div>
@@ -156,6 +170,8 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="./programacion/modo.js"></script>
 
 </body>
 </html>
